@@ -1,0 +1,33 @@
+<%= react_component 'Index', { data: @expenses, current_user_id: current_user.id} %>
+
+<!-- <h1>Expenses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Price</th>
+      <th>Reason</th>
+      <th>Details</th>
+      <th>Date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @expenses.each do |expense| %>
+      <tr>
+        <td><%= expense.price %></td>
+        <td><%= expense.reason %></td>
+        <td><%= expense.details %></td>
+        <td><%= expense.date %></td>
+        <td><%= link_to 'Show', expense %></td>
+        <td><%= link_to 'Edit', edit_expense_path(expense) %></td>
+        <td><%= link_to 'Destroy', expense, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Expense', new_expense_path %> -->
