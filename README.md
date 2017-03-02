@@ -1,24 +1,14 @@
-# README
+This app tracks the monthly expenses.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Baisc features
+-Adding an expense
+-deleting expense
+-updating expense
+-searching expenses using query
+-sharing via email to someone... sending the pdf to the specified email...
 
-Things you may want to cover:
+The application uses ruby 2.4.0
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rvm use 2.4.0
+rvm gemset create pa
+rvm gemset use pa
